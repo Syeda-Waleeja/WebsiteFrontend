@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      /* navbar */
+
+      .first-flex {
+        display: flex;
+        justify-content: space-evenly;
+        height: 50px;
+        font-size: 1.3rem;
+      }
+
+      .first-flex h2 {
+        padding-top: 5px;
+      }
+
+      .items {
+        padding-top: 10px;
+      }
+
+      .items a {
+        padding: 30px;
+      }
+
+      a {
+        text-decoration: none;
+        color: rgb(63, 63, 63);
+      }
+
+      a:hover {
+        color: gray;
+      }
+
+      /* body */
+      body {
+        background-color: rgb(203, 239, 220);
+      }
+
+      .container {
+        margin-top: 70px;
+        margin-bottom: 150px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: start;
+      }
+
+      img {
+        width: 200px;
+        height: 250px;
+      }
+
+      .cards {
+        width: 350px;
+        height: 600px;
+        background-color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 10px;
+      }
+      p {
+        margin-left: 30px;
+        margin-left: 30px;
+      }
+
+      h3 {
+        text-align: center;
+        margin-top: 40px;
+        color: rgb(87, 190, 135);
+        font-family:
+          "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+      }
+
+      h1 {
+        text-align: center;
+        margin-top: 20px;
+        color: rgb(0, 198, 92);
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+      h2 {
+        color: rgb(0, 198, 92);
+        font-family:
+          "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+        margin-top: 8px;
+      }
+      p {
+        color: rgb(29, 76, 56);
+        font-weight: bold;
+        margin-top: 8px;
+      }
+
+      button {
+        padding: 12px;
+        width: 130px;
+        border: none;
+        border-radius: 8px;
+        background-color: rgb(0, 198, 92);
+        color: white;
+        font-weight: bold;
+        margin-top: 15px;
+      }
+
+      button:hover {
+        background-color: #fff;
+        color: rgb(0, 198, 92);
+      }
+    </style>
+  </head>
+  <body>
+    <!-- navbar -->
+    <div class="first-flex">
+      <ol class="items">
+        <a href="../index/index.html">Home</a>
+        <a href="features.html">Features</a>
+        <a href="../about/about.html">About</a>
+        <a href="../work/work.html">Work</a>
+      </ol>
+      <h2>BOLTEX</h2>
+      <ol class="items">
+        <a href="../price/price.html">Pricing</a>
+        <a href="../blog/blog.html">Blog</a>
+        <a href="#">Shop</a>
+        <a href="../contact/contact.html">Contact</a>
+      </ol>
+    </div>
+
+    <h3>FEATURES</h3>
+    <h1>Our Features & Services.</h1>
+    <div class="container">
+      <div class="cards">
+        <img
+          src="../imgs/depositphotos_242499552-stock-illustration-two-people-man-woman-character.jpg"
+          alt="Communication"
+        />
+        <h2>Communications</h2>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita nam
+          sed, quia suscipit recusandae tenetur.
+        </p>
+        <button>MORE</button>
+      </div>
+      <div class="cards">
+        <img src="../imgs/COLOURBOX48403929.jpg" alt="Inspired Design" />
+        <h2>Inspired Design</h2>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita nam
+          sed, quia suscipit recusandae tenetur.
+        </p>
+        <button>MORE</button>
+      </div>
+      <div class="cards">
+        <img
+          src="../imgs/man-smiles-his-laptop-surrounded-hearts-concept-online-dating-virtual-love-romantic-chatting-social-media-393561563.jpg"
+          alt="Happy Customer"
+        />
+        <h2>Happy Customer</h2>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita nam
+          sed, quia suscipit recusandae tenetur.
+        </p>
+        <button>MORE</button>
+      </div>
+    </div>
+  </body>
+</html>

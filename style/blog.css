@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(225, 236, 246);
+}
+
+.first-flex {
+  display: flex;
+  justify-content: space-evenly;
+  height: 50px;
+  font-size: 1.3rem;
+}
+
+.first-flex h2{
+  padding-top: 5px;
+}
+
+.items{
+  padding-top: 10px;
+}
+
+.items a {
+  padding: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(63, 63, 63);
+}
+
+a:hover {
+  color: gray;
+}
+
+img {
+  width: 350px;
+  height: 200px;
+  border-radius: 8px 8px 0 0;
+}
+
+.box {
+  width: 350px;
+  height: 450px;
+  background-color: white;
+  border-radius: 8px;
+}
+
+article{
+  max-width: 1200px;          
+  margin: 0 auto;             
+  padding: 40px 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+}
+
+.box h3, button, p{
+    margin-left: 20px;
+    
+}
+
+.box button, small{
+    margin-top: 20px;
+}
+
+.box h3{
+    margin-top: 20px;
+}
+
+.box button{
+    padding: 3px;
+    color: white;
+    background-color: rgb(75, 97, 73);
+    border: none;
+    border-radius: 3px;
+}
+
+small{
+    color: gray;
+    margin-left: 10px;
+}
+
+.box p{
+    margin-top: 15px;
+}
+
+.article{
+    width: 100vw;
+    height: 100px;
+    background-color: black;
+    color: white;
+    font-size: 2rem;
+    padding-top: 10px;
+}
+
+.art-nav{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    width: 100vw;
+    background-color: rgb(75, 97, 73);
+}
+
+.links{
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.links a{
+    color: white;
+    background-color: rgb(60, 80, 60);
+    padding: 5px 10px;
+
+}
+
+.dropdown{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dropdown select{
+    padding: 10px;
+    background-color: rgb(60, 80, 60);
+    color: white;
+    margin-right: 20px;
+}

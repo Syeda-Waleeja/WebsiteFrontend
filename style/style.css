@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100vw;
+    height: 500px;
+    background-color: #e4e1e1;
+}
+/* navbar */
+
+.first-flex {
+  display: flex;
+  justify-content: space-evenly;
+  height: 50px;
+  font-size: 1.3rem;
+}
+
+.first-flex h2{
+  padding-top: 5px;
+}
+
+.items{
+  padding-top: 10px;
+}
+
+.items a {
+  padding: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(63, 63, 63);
+}
+
+a:hover {
+  color: gray;
+}
+
+
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.box{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
+img{
+    width: 250px;
+    height: 200px;
+
+}
+
+.same{
+    font-size: xx-large;
+    color: gray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.space{
+    margin-top: 20px;
+}
+
+button{
+    margin-top: 30px;
+    padding: 15px;
+    width: 130px;
+    border: none;
+    border-radius: 4px;
+    background-color: dodgerblue;
+    color: white;
+}
+
+
+.container-2{
+    background-color: rgb(203, 239, 220);
+    text-align: center;
+}
+
+.features{
+    font-size: 2.5rem;
+}
+/* features */
+.container3{
+            margin-top: 70px;
+            margin-bottom: 150px;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: start;
+            height: 800px;
+
+        }
+
+        img{
+            width: 200px;
+            height: 250px;
+        }
+
+        .cards{
+            width: 350px;
+            height: 600px;
+            background-color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            border-radius: 10px;
+        }
+        p{
+            margin-left: 30px;
+            margin-left: 30px;
+        }
+
+        h3{
+            text-align: center;
+            margin-top: 40px;
+            color: rgb(87, 190, 135);
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        .h2{
+            color: rgb(0, 198, 92);
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            margin-top: 8px;
+        }
+        p{
+            color: rgb(29, 76, 56);
+            font-weight: bold;
+            margin-top: 8px;
+        }
+
+        .button{
+            padding: 12px;
+            width: 130px;
+            border: none;
+            border-radius: 8px;
+            background-color:rgb(0, 198, 92) ;
+            color: white;
+            font-weight: bold;
+            margin-top: 15px;
+        }
+
+        .button:hover{
+            background-color: #fff;
+            color: rgb(0, 198, 92);
+        }

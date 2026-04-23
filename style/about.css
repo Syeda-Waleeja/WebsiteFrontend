@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  overflow: hidden;
+}
+
+
+.first-flex {
+  display: flex;
+  justify-content: space-evenly;
+  height: 50px;
+  font-size: 1.3rem;
+}
+
+.first-flex h2{
+  padding-top: 5px;
+}
+
+.items{
+  padding-top: 10px;
+}
+
+.items a {
+  padding: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(63, 63, 63);
+}
+
+a:hover {
+  color: gray;
+}
+
+
+
+.container{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+
+.main{
+    width: 800px;
+    height: 100vh;
+}
+
+.box1{
+    height: 300px;
+    background-color: rgb(147, 212, 177);
+    text-align: center;
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.box2{
+    background-color: rgb(250, 245, 245);
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+h2{
+    padding-bottom: 45px;
+    font-size: 2rem;
+}
+
+.nested_box{
+    margin-left: 35px;
+}
+
+.box3{
+    height: 150px;
+    background-color: rgb(53, 51, 51);
+    color: white;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+
+button{
+    padding: 15px;
+    border: none;
+    border-radius: 25px;
+    width: 130px;
+    margin-left: 50px;
+    margin-top: 40px;
+    background-color: rgb(147, 212, 177);
+}
+
+.num{
+    font-weight: bold;
+    margin-top: 55px;
+    margin-left: 40px;
+}
+
+.img{
+    width: 750px;
+    height: 700px;
+}
+
+.img> img{
+    width: 750px;
+    height: 708px;
+}
+
+button:hover{
+    color: rgb(147, 212, 177);
+    background-color: rgb(53, 51, 51) ;
+}

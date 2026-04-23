@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 , p{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.heading{
+    margin-top: 10px;
+}
+
+p{
+    margin-top: 10px;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+.content2{
+    width: 800px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+input{
+    padding: 15px;
+    background-color: rgb(224, 223, 223);
+    width: 500px;
+    margin-right: 50px;
+    border: none;
+}
+
+.line{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid black;
+}
+
+button{
+    padding: 15px;
+    margin-left: 20px;
+    width: 200px;
+    background-color: rgb(46, 44, 44);
+    color: white;
+}
+
+.box2{
+    margin-top: 35px;
+    width: 100vw;
+    height: 300px;
+    background-color: rgb(70, 69, 69);
+}
+
+.up-icon{
+    margin: 20px;
+    cursor: pointer;
+    display: inline;
+    padding: 10px;
+    float: right;
+    border: 1px solid white;
+    color: white;
+}
+
+.scnd-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icons{
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.fa-brands{
+    width: 40px;
+    padding: 10px;
+    background-color: rgb(89, 161, 89);
+    border-radius: 50%;
+    text-align: center;
+}
+
+.fa-brands:hover{
+    color: white;
+}
+
+.imp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 80px;
+}
+
+.imp strong{
+    color: white;
+    margin: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 80px;
+}
+
+.info a{
+    text-decoration: none;
+    color: gray;
+    margin: 20px;
+    padding-right: 25px;
+    border-right: 1px solid gray;
+}
+
+footer{
+    height:80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(89, 161, 89);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+button:hover{
+    color: black;
+    background-color: #fff;
+    border: none;
+}
+
+input:focus{
+    outline: none;
+}

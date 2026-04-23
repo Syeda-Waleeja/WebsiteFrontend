@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Me - Dividesign</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        background-color: #f5f5f5;
+        font-family: Arial, sans-serif;
+      }
+
+      /* navbar */
+      .first-flex {
+        display: flex;
+        justify-content: space-evenly;
+        height: 50px;
+        font-size: 1.3rem;
+      }
+
+      .first-flex h2 {
+        padding-top: 5px;
+      }
+
+      .items {
+        padding-top: 10px;
+      }
+
+      .items a {
+        padding: 30px;
+      }
+
+      a {
+        text-decoration: none;
+        color: rgb(63, 63, 63);
+      }
+
+      a:hover {
+        color: gray;
+      }
+
+      /* body */
+      .container {
+        width: 100%;
+        padding: 20px;
+      }
+
+      .contact-card {
+        width: 90%;
+        max-width: 600px;
+        margin: 40px auto;
+        background-color: white;
+        border-radius: 10px;
+        padding: 40px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+      }
+
+      .contact-title {
+        color: #333;
+        font-size: 36px;
+        font-weight: bold;
+        margin-bottom: 15px;
+        text-align: center;
+      }
+
+      .contact-email {
+        color: #2563eb;
+        font-size: 20px;
+        text-align: center;
+        margin-bottom: 20px;
+        display: block;
+        text-decoration: none;
+      }
+
+      .contact-email:hover {
+        text-decoration: underline;
+      }
+
+      .contact-description {
+        color: #666;
+        font-size: 18px;
+        text-align: center;
+        margin-bottom: 40px;
+        line-height: 1.5;
+      }
+
+      .form-group {
+        margin-bottom: 30px;
+      }
+
+      .form-label {
+        color: #333;
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 10px;
+        display: block;
+      }
+
+      .form-input {
+        width: 100%;
+        padding: 15px;
+        border: 2px solid #e0e0e0;
+        border-radius: 6px;
+        font-size: 16px;
+        background-color: #fafafa;
+      }
+
+      .form-input:focus {
+        outline: none;
+        border-color: #2563eb;
+        background-color: white;
+      }
+
+      textarea.form-input {
+        min-height: 150px;
+        resize: vertical;
+      }
+
+      .submit-btn {
+        background-color: #2563eb;
+        color: white;
+        border: none;
+        border-radius: 6px;
+        padding: 16px 30px;
+        font-size: 18px;
+        font-weight: bold;
+        cursor: pointer;
+        width: 100%;
+        display: block;
+      }
+
+      .submit-btn:hover {
+        background-color: #1d4ed8;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- navbar -->
+    <div class="first-flex">
+      <ol class="items">
+        <a href="../index/index.html">Home</a>
+        <a href="../features/features.html">Features</a>
+        <a href="../about/about.html">About</a>
+        <a href="../work/work.html">Work</a>
+      </ol>
+      <h2>BOLTEX</h2>
+      <ol class="items">
+        <a href="../price/price.html">Pricing</a>
+        <a href="../blog/blog.html">Blog</a>
+        <a href="#">Shop</a>
+        <a href="contact.html">Contact</a>
+      </ol>
+    </div>
+
+    <!-- body -->
+    <div class="container">
+      <div class="contact-card">
+        <h1 class="contact-title">Contact Me</h1>
+        <a href="mailto:hello@dividesign.com" class="contact-email"
+          >hello@dividesign.com</a
+        >
+        <p class="contact-description">
+          Feel free to contact me with any inquiries or questions!
+        </p>
+
+        <form>
+          <div class="form-group">
+            <label class="form-label">Name</label>
+            <input
+              type="text"
+              class="form-input"
+              placeholder="Enter your name"
+            />
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">Email Address</label>
+            <input
+              type="email"
+              class="form-input"
+              placeholder="Enter your email address"
+            />
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">Message</label>
+            <textarea
+              class="form-input"
+              placeholder="Type your message here"
+            ></textarea>
+          </div>
+
+          <button type="button" class="submit-btn">Submit</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
